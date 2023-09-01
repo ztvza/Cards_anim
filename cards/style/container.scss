@@ -1,0 +1,36 @@
+.container {
+  width: 920px;
+  margin: 0 auto;
+}
+
+@media screen and ( max-width: 1200px ) {
+  .container_header {
+    width: 930px;
+  }
+
+  .container{
+    width: 850px;
+  }
+}
+
+@media screen and ( max-width: 930px ){
+
+  .container {
+    width: 720px;
+  }
+}
+
+@media screen and ( max-width: 768px ) {
+  .container {
+    width: 425px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container_header {
+    width: 320px;
+  }
+  .container {
+    width: 320px;
+  }
+}
